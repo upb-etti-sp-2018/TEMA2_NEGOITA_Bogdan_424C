@@ -21,6 +21,5 @@ w=2*pi/40;
  legend(' Original ',' SFC');
  
 figure
-Ak(1)=Ak(51);
 Ak(1)=3/8;
 stem([0:N],Ak,'k'), grid, title('Spectru de amplitudini'), xlabel('frecventa w'), ylabel('Amplitudinea Ak');
