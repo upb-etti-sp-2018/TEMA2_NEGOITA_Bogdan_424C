@@ -23,3 +23,8 @@ w=2*pi/40;
 figure
 Ak(1)=3/8;
 stem([0:N],Ak,'k'), grid, title('Spectru de amplitudini'), xlabel('frecventa w'), ylabel('Amplitudinea Ak');
+
+%deoarece suma este impara am ales un semnal de tip dreptunghiular;
+%in cadrul problemei generam un semnal pe care il reconstruim cu ajutorul SFC (formulele prezentate 
+%in enunt) si utilizam redefinirea functiilor din matlab pentru a putea calcula integrala pentru fiecare k
+%(pentru fiecare coeficient Ck(k))
